@@ -14,9 +14,7 @@ names = list(virusdetails1.keys())
 values = list(virusdetails1.values())
 
 mpl.bar(range(len(virusdetails1)), values, tick_label = names)
-
 print(virusdetails1)
-
 mpl.show()
 
 
